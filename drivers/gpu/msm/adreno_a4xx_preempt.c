@@ -13,7 +13,7 @@
 
 #include "adreno.h"
 #include "adreno_a4xx.h"
-#include "adreno_trace.h"
+#include <trace/adreno_trace.h>
 #include "adreno_pm4types.h"
 
 #define ADRENO_RB_PREEMPT_TOKEN_DWORDS		125

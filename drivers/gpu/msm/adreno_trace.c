@@ -18,4 +18,4 @@
 #include "a3xx_reg.h"
 #include "a4xx_reg.h"
 #include "a5xx_reg.h"
-#include "adreno_trace.h"
+#include <trace/adreno_trace.h>

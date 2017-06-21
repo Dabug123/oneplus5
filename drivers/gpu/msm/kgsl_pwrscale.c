@@ -18,7 +18,7 @@
 #include "kgsl.h"
 #include "kgsl_pwrscale.h"
 #include "kgsl_device.h"
-#include "kgsl_trace.h"
+#include <trace/kgsl_trace.h>
 
 /*
  * "SLEEP" is generic counting both NAP & SLUMBER

@@ -16,7 +16,7 @@
 #include <linux/list.h>
 #include <linux/netdevice.h>
 #include "ipa_i.h"
-#include "ipa_trace.h"
+#include <trace/ipa_trace.h>
 
 #define IPA_WAN_AGGR_PKT_CNT 5
 #define IPA_LAST_DESC_CNT 0xFFFF

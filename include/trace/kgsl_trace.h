@@ -22,8 +22,8 @@
 #define TRACE_INCLUDE_FILE kgsl_trace
 
 #include <linux/tracepoint.h>
-#include "kgsl_device.h"
-#include "adreno_drawctxt.h"
+#include "../../drivers/gpu/msm/kgsl_device.h"
+#include "../../drivers/gpu/msm/adreno_drawctxt.h"
 
 struct kgsl_device;
 struct kgsl_ringbuffer_issueibcmds;

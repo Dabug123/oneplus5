@@ -22,9 +22,9 @@
 #define TRACE_INCLUDE_FILE adreno_trace
 
 #include <linux/tracepoint.h>
-#include "adreno_a3xx.h"
-#include "adreno_a4xx.h"
-#include "adreno_a5xx.h"
+#include "../../drivers/gpu/msm/adreno_a3xx.h"
+#include "../../drivers/gpu/msm/adreno_a4xx.h"
+#include "../../drivers/gpu/msm/adreno_a5xx.h"
 
 TRACE_EVENT(adreno_cmdbatch_queued,
 	TP_PROTO(struct kgsl_drawobj *drawobj, unsigned int queued),

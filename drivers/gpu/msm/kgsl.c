@@ -38,7 +38,7 @@
 #include "kgsl_sharedmem.h"
 #include "kgsl_drawobj.h"
 #include "kgsl_device.h"
-#include "kgsl_trace.h"
+#include <trace/kgsl_trace.h>
 #include "kgsl_sync.h"
 #include "kgsl_compat.h"
 #include "kgsl_pool.h"

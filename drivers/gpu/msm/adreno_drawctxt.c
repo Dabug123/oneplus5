@@ -19,7 +19,7 @@
 #include "kgsl.h"
 #include "kgsl_sharedmem.h"
 #include "adreno.h"
-#include "adreno_trace.h"
+#include <trace/adreno_trace.h>
 
 static void wait_callback(struct kgsl_device *device,
 		struct kgsl_event_group *group, void *priv, int result)

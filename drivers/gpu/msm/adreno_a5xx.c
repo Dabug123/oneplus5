@@ -20,14 +20,14 @@
 #include "a5xx_reg.h"
 #include "adreno_a5xx.h"
 #include "adreno_cp_parser.h"
-#include "adreno_trace.h"
+#include <trace/adreno_trace.h>
 #include "adreno_pm4types.h"
 #include "adreno_perfcounter.h"
 #include "adreno_ringbuffer.h"
 #include "kgsl_sharedmem.h"
 #include "kgsl_log.h"
 #include "kgsl.h"
-#include "kgsl_trace.h"
+#include <trace/kgsl_trace.h>
 #include "adreno_a5xx_packets.h"
 
 static int zap_ucode_loaded;
