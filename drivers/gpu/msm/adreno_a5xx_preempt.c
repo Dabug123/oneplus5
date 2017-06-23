@@ -13,7 +13,7 @@
 #include "adreno.h"
 #include "adreno_a5xx.h"
 #include "a5xx_reg.h"
-#include <trace/adreno_trace.h>
+#include "adreno_trace.h"
 #include "adreno_pm4types.h"
 
 #define PREEMPT_RECORD(_field) \

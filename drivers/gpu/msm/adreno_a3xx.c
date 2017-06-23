@@ -24,7 +24,7 @@
 #include "adreno_a4xx.h"
 #include "a4xx_reg.h"
 #include "adreno_cp_parser.h"
-#include <trace/adreno_trace.h>
+#include "adreno_trace.h"
 #include "adreno_pm4types.h"
 #include "adreno_perfcounter.h"
 #include "adreno_snapshot.h"

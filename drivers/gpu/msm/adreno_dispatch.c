@@ -22,7 +22,7 @@
 #include "kgsl_sharedmem.h"
 #include "adreno.h"
 #include "adreno_ringbuffer.h"
-#include <trace/adreno_trace.h>
+#include "adreno_trace.h"
 #include "kgsl_sharedmem.h"
 
 #define DRAWQUEUE_NEXT(_i, _s) (((_i) + 1) % (_s))

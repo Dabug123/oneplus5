@@ -15,10 +15,10 @@
 #include <linux/list.h>
 #include <linux/workqueue.h>
 #include <linux/debugfs.h>
-#include "kgsl_device.h"
+#include <kgsl_device.h>
 
 #include "kgsl_debugfs.h"
-#include <trace/kgsl_trace.h>
+#include "kgsl_trace.h"
 
 /*
  * Define an kmem cache for the event structures since we allocate and free them

@@ -18,7 +18,7 @@
 
 /* Instantiate tracepoints */
 #define CREATE_TRACE_POINTS
-#include <trace/kgsl_trace.h>
+#include "kgsl_trace.h"
 
 EXPORT_TRACEPOINT_SYMBOL(kgsl_regwrite);
 EXPORT_TRACEPOINT_SYMBOL(kgsl_issueibcmds);

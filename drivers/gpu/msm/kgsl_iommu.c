@@ -32,7 +32,7 @@
 #include "kgsl_iommu.h"
 #include "adreno_pm4types.h"
 #include "adreno.h"
-#include <trace/kgsl_trace.h>
+#include "kgsl_trace.h"
 #include "kgsl_cffdump.h"
 #include "kgsl_pwrctrl.h"
 
